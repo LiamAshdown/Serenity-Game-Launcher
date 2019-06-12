@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Main_Picture_Box_Minimise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Minimise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Read_More_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Read_More_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Scroll_Bar_BackGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Scroll_Bar_BackGround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Scroll_Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Scroll_Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Status_Background_Status1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Status_Background_Status.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Donate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Donate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Radio_Button_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Radio_Button_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Common_Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Common_Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Picture_Box_Password_Recovery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Login_Picture_Box_Password_Recovery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Picture_Box_Register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Login_Picture_Box_Register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Radio_Button2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Radio_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Picture_Box_Hover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Login_Picture_Box_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Vote_Now" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Vote_Now.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Picture_Box_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Login_Picture_Box_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Picture_Box_Save_Settings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Picture_Box_Save_Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Introduction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Introduction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Changelog_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Changelog_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Status_Background_Status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Status_Background_Status.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Minimise_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Minimise_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Picture_Box_Register_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Login_Picture_Box_Register_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Picture_Box_Drop_Down_Background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Picture_Box_Drop_Down_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Donate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Donate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Input_Field" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Login_Input_Field.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Discord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Discord.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Vote_Now_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Vote_Now_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Discord_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Discord_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Resume_Download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Resume_Download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Picture_Box_Drop_Down_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Picture_Box_Drop_Down_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Donate_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Donate_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Picture_Box_Save_Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Picture_Box_Save_Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Picture_Box_Or" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Login_Picture_Box_Or.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Download_Total" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Download_Total.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Picture_Box_Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Picture_Box_Cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Pause_Download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Pause_Download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Read_More" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Read_More.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Picture_Box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Login_Picture_Box.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Picture_Box_Search_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Picture_Box_Search_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Common_Close_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Common_Close_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Waiting_Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Waiting_Play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Progress_Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Progress_Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Radio_Button_Hover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Radio_Button_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Picture_Box_Cancel_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Picture_Box_Cancel_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Main_Background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Main_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Voted_Yet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Voted_Yet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Radio_Button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Radio_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Bar_Holder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Bar_Holder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Radio_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Radio_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Changelog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Changelog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_BackGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Login_BackGround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Picture_Box_Save_Settings_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Picture_Box_Save_Settings_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Main_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Main_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Download_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Download_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings_Picture_Box_Drop_Down_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Settings_Picture_Box_Drop_Down_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Vote_Now1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Vote_Now.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Support.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main_Picture_Box_Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Main_Picture_Box_Play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

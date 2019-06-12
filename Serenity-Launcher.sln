@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serenity-Launcher", "Serenity-Launcher\Serenity-Launcher.csproj", "{15E85059-EB78-463E-A173-1AB324D942A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15E85059-EB78-463E-A173-1AB324D942A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E85059-EB78-463E-A173-1AB324D942A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E85059-EB78-463E-A173-1AB324D942A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E85059-EB78-463E-A173-1AB324D942A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CE163C9-A5DE-465D-AB94-A0897C063841}
+	EndGlobalSection
+EndGlobal
